@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Lato Regular";
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Tahoma Regular";
+    src: url("../fonts/Tahoma-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}

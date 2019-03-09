@@ -23,7 +23,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 html {
-  font: 10px 'OpenSans', sans-serif;
+  font: 10px "Lato Regular", "Tahoma Regular", sans-serif;
 }
  ul { list-style: none; };
 * {
