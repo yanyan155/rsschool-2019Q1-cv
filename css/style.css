@@ -36,62 +36,56 @@ html {
 a, a:hover { text-decoration: none; }
 
 .clearfix:after, .clearfix:before {
-  content: '';
   display: table;
+  content: '';
 }
 .clearfix:after { clear: both; }
 h1 {
+  margin: 10px 0;
   font-size: 2.4rem;
-  padding: 10px 0;
 }
 h2 {
+  margin: 10px 0;
   font-size: 2rem;
-  padding: 10px 0;
 }
 h3 {
+  margin: 10px 0;
   font-size: 1.8rem;
-  padding: 10px 0;
 }
 p, ol li, label {
   font-size: 1.6rem;
 }
-.wrapper {
-  margin: 0 auto; 
+.wrapper { 
   width: 600px;
+  margin: 0 auto;
 }
 .info-block {
-  font-size: 0;
   margin-bottom: 20px;
+  font-size: 0;
 }
 .info-block h2 {
   font-size: 2rem;
 }
 .name-contacts {
   display: inline-block;
+  margin-left: 30px;
   font-size: 1.6rem;
   vertical-align: top;
-  margin-left: 30px;
 }
 .code-example-block{
   font-size: 0;
 }
-.code-example-block a{
-  display: inline-block;
-}
-.code-description {
-  width: 400px;
-  display: inline-block;
-  vertical-align: top;
-   font-size: 1.6rem;
-}
-.project-item {
-  border-bottom: 1px dashed black;
+.project-item,
+.code-example-block {
   padding: 10px 0;
+  border-bottom: 1px dashed black;
 }
-.project-item:first-child {
+.project-item:first-child,
+.code-example-block:first-child {
   padding-top: 0;
 }
-.project-item:last-child {
-  border-bottom: 0px dashed black;
+.project-item:last-child,
+.code-example-block:last-child {
   padding-bottom: 0;
+  border-bottom: 0px dashed black;
 }
