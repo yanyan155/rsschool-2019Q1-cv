@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html {
+  font: 10px "Lato Regular", "Tahoma Regular", sans-serif;
+}
+ ul { list-style: none; };
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a, a:hover { text-decoration: none; }
+
+.clearfix:after, .clearfix:before {
+  display: table;
+  content: '';
+}
+.clearfix:after { clear: both; }
+h1 {
+  margin: 10px 0;
+  font-size: 2.4rem;
+}
+h2 {
+  margin: 10px 0;
+  font-size: 2rem;
+}
+h3 {
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+p, ol li, label {
+  font-size: 1.6rem;
+}
+.wrapper { 
+  width: 600px;
+  margin: 0 auto;
+}
+.info-block {
+  margin-bottom: 20px;
+  font-size: 0;
+}
+.info-block h2 {
+  font-size: 2rem;
+}
+.name-contacts {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 1.6rem;
+  vertical-align: top;
+}
+.code-example-block{
+  font-size: 0;
+}
+.project-item,
+.code-example-block {
+  padding: 10px 0;
+  border-bottom: 1px dashed black;
+}
+.project-item:first-child,
+.code-example-block:first-child {
+  padding-top: 0;
+}
+.project-item:last-child,
+.code-example-block:last-child {
+  padding-bottom: 0;
+  border-bottom: 0px dashed black;
+}
